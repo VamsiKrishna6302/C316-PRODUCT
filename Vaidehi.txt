@@ -1,0 +1,9 @@
+# Python program to print negative Numbers in a List
+
+lst = [11, 22, 33, 44, -55, -66, 70]
+
+for num in lst:
+ 
+    # checking condition
+    if num < 0:
+    print(num, end=" ")
